@@ -43,9 +43,9 @@ $ jupyter lab --no-browser --port=8899
 ```
 
 ## Try Speckle Flow SIM on Jupyter notebooks 
-[simulation.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/simulation.ipynb): simulation reconstruction on a dynamic Shepp-Logan phantom.
+[simulation.ipynb](https://github.com/rmcao/SpeckleFlowSIM/blob/main/simulation.ipynb): simulation reconstruction on a dynamic Shepp-Logan phantom.
 
-[experiment.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/experiment.ipynb): experimental reconstruction on a absorptive USAF-1951 resolution target.
+[experiment.ipynb](https://github.com/rmcao/SpeckleFlowSIM/blob/main/experiment.ipynb): experimental reconstruction on a absorptive USAF-1951 resolution target.
 
 
 ## Folder structure
