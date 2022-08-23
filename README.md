@@ -1,6 +1,6 @@
 # Dynamic Structured Illumination Microscopy with a Neural Space-time Model
 
-## [Project Page]() | [Paper](https://arxiv.org/abs/2206.01397) | [Experimental Data](https://drive.google.com/file/d/19iE_iUenZdXmnuAIX6lodqG-NRBrf-p4/view?usp=sharing)
+## Project Page | [Paper](https://arxiv.org/abs/2206.01397) | [Experimental Data](https://drive.google.com/file/d/19iE_iUenZdXmnuAIX6lodqG-NRBrf-p4/view?usp=sharing)
 
 ## Prerequisite
 - [CUDA 11.X](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) (JAX distribution is CUDA version-specific)
@@ -33,22 +33,25 @@ $ jupyter lab --no-browser --port=8899
 ```
 
 ## Main notebooks
-[simulation.ipynb](https://github.com/rmcao/speckle_flow_SIM/blob/master/simulation_fluo.ipynb): simulation reconstruction on a dynamic Shepp-Logan phantom.
+[simulation.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/simulation.ipynb): simulation reconstruction on a dynamic Shepp-Logan phantom.
 
-Experimental notebook coming very soon.
+[experiment.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/experiment.ipynb): experimental reconstruction on a absorptive USAF-1951 resolution target.
+
 
 ## Folder structure
 ```
 ├── checkpoint          : folder to store model checkpoints
 ├── README.md           : README file
 ├── simulation.ipynb    : notebook for Speckle Flow SIM simulation
+├── experiment.ipynb    : notebook for Speckle Flow SIM experiment
+├── experiment.npz      : experimental data
+├── requirement.txt     : dependencies to install
 ├── spacetime.py        : implementation of the neural space-time model
 ├── speckle_flow.py     : incorporating Speckle SIM forward model with neural space-time model for Speckle Flow SIM
 └── utils.py            : utility functions for motion and dynamic scene generation.
 ```
 
 ## Citation
-Please cite this work as:
 ```
 @article{cao2022dynamic,
   title={Dynamic Structured Illumination Microscopy with a Neural Space-time Model},
