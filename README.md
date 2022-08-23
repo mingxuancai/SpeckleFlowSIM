@@ -7,20 +7,30 @@
 - [cuDNN](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 - [Anaconda](https://www.anaconda.com/products/individual)
 
-## Set up environment
+## Setup
+Clone this project
+
 ```
-$ conda create -n virtualenv_name python=3.9  # set up virtual env
-$ conda activate virtualenv_name  # activate virtual env
-$ pip install https://storage.googleapis.com/jax-releases/cuda111/jaxlib-0.1.72+cuda111-cp39-none-manylinux2010_x86_64.whl
-$ pip install -r requirement.txt  # install the rest of env via pip
+git clone https://github.com/rmcao/SpeckeFlowSIM.git
+```
 
-# install jupyter notebook/lab for visualization
-$ conda install -c conda-forge jupyterlab nodejs ipympl
+Set up & activate virtual env
+```
+conda create -n virtualenv_name python=3.9
+conda activate virtualenv_name
+```
 
-# install comp imaging library
-$ git clone --recursive https://github.com/rmcao/CalCIL.git 
-$ cd calcil
-$ pip3 install -e .
+Install dependencies
+```
+pip install https://storage.googleapis.com/jax-releases/cuda111/jaxlib-0.1.72+cuda111-cp39-none-manylinux2010_x86_64.whl
+pip install -r requirement.txt  # install the rest of env via pip
+conda install -c conda-forge jupyterlab nodejs ipympl  # for visualization
+```
+Install the in-house library
+```
+git clone --recursive https://github.com/rmcao/CalCIL.git 
+cd calcil
+pip3 install -e .
 ```
 
 ## Download experimental data
@@ -32,7 +42,7 @@ $ pip3 install -e .
 $ jupyter lab --no-browser --port=8899
 ```
 
-## Main notebooks
+## Try Speckle Flow SIM on Jupyter notebooks 
 [simulation.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/simulation.ipynb): simulation reconstruction on a dynamic Shepp-Logan phantom.
 
 [experiment.ipynb](https://github.com/rmcao/SpeckeFlowSIM/blob/main/experiment.ipynb): experimental reconstruction on a absorptive USAF-1951 resolution target.
