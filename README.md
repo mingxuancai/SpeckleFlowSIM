@@ -28,7 +28,7 @@ conda install -c conda-forge jupyterlab nodejs ipympl  # for visualization
 ```
 Install the in-house library
 ```
-git clone --recursive https://github.com/rmcao/CalCIL.git 
+git clone --branch v0.0.1 https://github.com/rmcao/CalCIL.git
 cd calcil
 pip3 install -e .
 ```
