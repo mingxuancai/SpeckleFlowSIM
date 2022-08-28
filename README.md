@@ -11,7 +11,7 @@
 Clone this project
 
 ```
-git clone https://github.com/rmcao/SpeckeFlowSIM.git
+git clone https://github.com/Waller-Lab/SpeckleFlowSIM.git
 ```
 
 Set up & activate virtual env
