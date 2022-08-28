@@ -1,6 +1,6 @@
 # Dynamic Structured Illumination Microscopy with a Neural Space-time Model
 
-## Project Page | [Paper](https://arxiv.org/abs/2206.01397) | [Experimental Data](https://drive.google.com/file/d/19iE_iUenZdXmnuAIX6lodqG-NRBrf-p4/view?usp=sharing)
+## [Project Page](https://rmcao.net/project/speckleflowsim/) | [Paper](https://arxiv.org/abs/2206.01397) | [Experimental Data](https://drive.google.com/file/d/19iE_iUenZdXmnuAIX6lodqG-NRBrf-p4/view?usp=sharing)
 
 ## Prerequisite
 - [CUDA 11.X](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) (JAX distribution is CUDA version-specific)
