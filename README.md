@@ -23,7 +23,7 @@ conda activate virtualenv_name
 Install dependencies
 ```
 pip install https://storage.googleapis.com/jax-releases/cuda111/jaxlib-0.1.72+cuda111-cp39-none-manylinux2010_x86_64.whl
-pip install -r requirement.txt  # install the rest of env via pip
+pip install -r requirements.txt  # install the rest of env via pip
 conda install -c conda-forge jupyterlab nodejs ipympl  # for visualization
 ```
 Install the in-house library
